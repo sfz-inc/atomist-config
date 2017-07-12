@@ -2,7 +2,7 @@
   "configuration": {
     "push": {
       "configuration": {
-        "emoji-style": "atomist",
+        "emoji-style": "default",
         "fingerprints": {
           "about-hint": "false",
           "render-unchanged": "true",
