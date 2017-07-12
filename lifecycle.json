@@ -4,7 +4,7 @@
       "configuration": {
         "emoji-style": "default",
         "fingerprints": {
-          "about-hint": "false",
+          "about-hint": "true",
           "render-unchanged": "true",
           "style": "fingerprint-inline",
           "data": "${file://fingerprints.json}"
