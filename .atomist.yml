@@ -52,3 +52,21 @@ editor:
     - "follower": "test-rest-seed-123"
     - "featureName": "SpringBoot.Structure"
 
+---
+kind: "operation"
+client: "com.atomist:rug"
+version: "1.0.0-20170715141010"
+editor:
+  name: "AddFeatureFollowerEditor"
+  group: "atomist"
+  artifact: "spring-team-handlers"
+  version: "0.7.7"
+  origin:
+    repo: "git@github.com:atomisthq/spring-team-handlers.git"
+    branch: "b6b9f14be8b950ed2b962742091b2b4e035d848e"
+    sha: "b6b9f14"
+  parameters:
+    - "broadcaster": "spring-rest-seed"
+    - "follower": "bookings-app"
+    - "featureName": "SpringBoot.Structure"
+
